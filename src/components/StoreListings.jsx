@@ -10,7 +10,7 @@ export default function StoreListings() {
         <div style={{ margin: "auto" }}>
             <h2>Browse stores in Houston</h2>
             <Container style={{ marginTop: "50px", textAlign: "center" }}>
-                <Row >
+                <Row style={{borderBottom: "1px solid #E8E9EB", display: "flex", justifyContent: "space-evenly", margin: "auto"}}>
                     <Row>
                         <Col xs=".5" >
                             <Image style={{ height: "55px", width: "50px", border: "1px solid #E8E9EB" }} src="https://d2d8wwwkmhfcva.cloudfront.net/96x96/d2lnr5mha7bycj.cloudfront.net/warehouse/logo/12/2774c343-1319-4720-a54f-0c46e93f956c.png" roundedCircle />
@@ -19,7 +19,7 @@ export default function StoreListings() {
                             <h5 style={{ fontWeight: "bold" }}>ALDI</h5>
                             <p>Delivery * Pickup</p>
                         </Col>
-                    </Row>
+                        </Row> 
                     <Col sm="1"></Col>
                     <Row >
                         <Col xs=".5">
@@ -40,7 +40,7 @@ export default function StoreListings() {
                             <p>Delivery</p>
                         </Col>
                     </Row>
-                </Row>
+                    </Row>
             </Container>
         </div >
     )
